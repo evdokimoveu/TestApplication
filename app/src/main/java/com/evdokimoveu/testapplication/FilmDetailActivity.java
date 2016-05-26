@@ -104,6 +104,7 @@ public class FilmDetailActivity extends AppCompatActivity {
                     content.put(DBFavoriteFilms.DB_DATE_FIELD, film.getDate());
                     try {
                         sqLiteDatabase.insert(DBFavoriteFilms.TABLE_FILM, null, content);
+                        Toast.makeText(FilmDetailActivity.this, "This film add in your favorite.", Toast.LENGTH_SHORT).show();
                     } catch (SQLiteConstraintException ex) {
                         Toast.makeText(FilmDetailActivity.this, "This film already is your favorite.", Toast.LENGTH_SHORT).show();
                     } finally {
