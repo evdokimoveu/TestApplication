@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/trailer_custom_layout"
+    android:layout_marginBottom="30dp">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/play_trailer_image_button"
+        android:src="@drawable/triangle"
+        android:contentDescription="@string/play_trailer"
+        android:rotation="90"
+        android:background="@null"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/text_trailer_title"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_alignBottom="@+id/play_trailer_image_button"
+        android:layout_toRightOf="@+id/play_trailer_image_button"
+        android:layout_toEndOf="@+id/play_trailer_image_button" />
+
+</RelativeLayout>

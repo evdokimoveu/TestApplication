@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">TestApplication</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_film_detail">FilmDetailActivity</string>
+    <string name="MarkAsFavoriteButton">Mark as \n Favorite</string>
+    <string name="trailers">Trailers:</string>
+    <string name="poster_img_description">Film Poster</string>
+    <string name="play_trailer">Play Trayler</string>
+    <string name="menu_popular">Popular</string>
+    <string name="menu_top_rated">Top Rated</string>
+    <string name="menu_favorite">Favorite</string>
 </resources>
